@@ -2,9 +2,16 @@
 <%@ page pageEncoding="UTF-8" %>
 <hr/><!-- comment -->
 <div align="center">
- DESENVOLVIDO POR ANDERSON SOARES DOS SANOS
+ <b>DESENVOLVIDO POR ANDERSON SOARES DOS SANTOS - RA 1290481923017</b> 
 </div>
 <div align="center">
- <b> ADS - FATEC - FACULDADE DE TECNOLOGIA DE PRAIA GRANDE</b> 
+<b>PROGRAMAÇÃO ORIENTADA A OBJETOS(ILP007A) -  PROFº RICARDO PUPO LARGUESA</b> 
+</div>
+<div align="center">
+ <b> TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS(ADS) - NOTURNO</b> 
+
+</div>
+<div align="center">
+ <b> FATEC - FACULDADE DE TECNOLOGIA DE PRAIA GRANDE</b> 
 
 </div>

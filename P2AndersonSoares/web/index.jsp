@@ -90,6 +90,8 @@
                     <%-- CALCULO DA MEDIA  --%>
                     <%-- CONVERTER DE STRING PARA INT --%>
                     <%-- Integer.parseInt --%>
+                    <%-- CORRIGIR ARREDONDAMENTO DA MÉDIA --%>
+                    
                    <td><%= ((Integer.parseInt( c.getNotaP1())) 
                           + (Integer.parseInt( c.getNotaP2())) )
                           / 2%>

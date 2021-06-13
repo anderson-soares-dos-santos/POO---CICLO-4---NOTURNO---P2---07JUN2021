@@ -73,8 +73,8 @@
         <%}else{%>
         
         <form method="post">
-            Login: <input type="text" name="login"/>
-            Nome: <input type="text" name="name"/>
+            Login: <input maxlength="49" type="text" name="login"/>
+            Nome: <input maxlength="199" type="text" name="name"/>
             Papel: <select name="role">
                 <option value="ADMIN">ADMIN</option>
                 <option value="USER">USER</option>

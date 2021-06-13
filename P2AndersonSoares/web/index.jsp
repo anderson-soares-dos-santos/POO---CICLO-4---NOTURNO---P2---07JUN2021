@@ -85,16 +85,17 @@
                 <tr>                    
                     <td><%= c.getName() %></td>
                     <td><%= c.getCodDisciplina() %></td>
-                    <td><%= c.getNotaP1() %></td> 
-                    <td><%= c.getNotaP2() %></td> 
+                   
+                    <td><%= c.getNotaP1().replace(",", ".") %></td> 
+                    <td><%= c.getNotaP2().replace(",", ".") %></td> 
                     <%-- CALCULO DA MEDIA  --%>
-                    <%-- CONVERTER DE STRING PARA INT --%>
-                    <%-- Integer.parseInt --%>
-                    <%-- CORRIGIR ARREDONDAMENTO DA MÉDIA --%>
-                    
-                   <td><%= ((Integer.parseInt( c.getNotaP1())) 
-                          + (Integer.parseInt( c.getNotaP2())) )
-                          / 2%>
+                    <%-- CONVERTER DE STRING PARA DOUBLE --%>
+                    <%-- Double.parseDouble --%>
+                    <%--  ARREDONDAMENTO DA MÉDIA MULTIPLICANDO  CADA VALOR POR 100 --%>
+                    <%--  DIVIDINDO O RESULTADO FINAL POR 100 --%>
+                   <td><%= (((Double.parseDouble( c.getNotaP1().replace(",", ".")))*100 
+                          + (Double.parseDouble( c.getNotaP2().replace(",", ".")))*100 )
+                          / 2)/100 %>
                    </td> 
                 </tr>
             <%}%>  

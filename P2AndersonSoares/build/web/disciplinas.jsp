@@ -82,6 +82,7 @@
 		<div class="col-lg-10">
 			<input type="text" 
                                class="form-control"
+                                maxlength="199"
                                name="name"
                                placeholder="Sistemas Operacionais">
 		</div>
@@ -92,6 +93,7 @@
 		<div class="col-lg-10">
 			<input type="text" 
                                class="form-control"
+                               maxlength="9"
                                name="codDisciplina"
                                placeholder="ISO200">
 		</div>
@@ -103,6 +105,7 @@
 		<div class="col-lg-10">
 			<input type="text" 
                                class="form-control"
+                               maxlength="14"
                                name="horario"
                                placeholder="19:00-22:30">
 		</div>
@@ -113,6 +116,7 @@
 		<div class="col-lg-10">
 			<input type="text" 
                                class="form-control"
+                               maxlength="1"
                                name="aulas"
                                placeholder="4">
 		</div>
@@ -122,6 +126,7 @@
 		<label for="professor" class="col-lg-2 control-label">Professor</label>
 		<div class="col-lg-10">
 			<input type="text" 
+                                maxlength="199"
                                class="form-control"
                                name="professor"
                                placeholder="RICARDO PUPO LARQUESA">
@@ -133,6 +138,7 @@
 		<div class="col-lg-10">
 			<input type="text" 
                                class="form-control"
+                               maxlength="3"
                                name="notaP1"
                                placeholder="8.8">
 		</div>
@@ -143,6 +149,7 @@
 		<div class="col-lg-10">
 			<input type="text" 
                                class="form-control"
+                               maxlength="3"
                                name="notaP2"
                                placeholder="0">
 		</div>
@@ -178,8 +185,8 @@
                     <td><%= c.getHorario() %></td>
                     <td><%= c.getAulas() %></td>
                     <td><%= c.getProfessor() %></td>
-                    <td><input type="text" name="notaP1" value="<%= c.getNotaP1() %>"/></td> 
-                    <td><input type="text" name="notaP2" value="<%= c.getNotaP2() %>"/></td>
+                    <td><input maxlength="3" type="text" name="notaP1" value="<%= c.getNotaP1() %>"/></td> 
+                    <td><input maxlength="3" type="text" name="notaP2" value="<%= c.getNotaP2() %>"/></td>
                     <td>
                         
                         <form method="post">
